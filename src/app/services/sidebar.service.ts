@@ -14,11 +14,18 @@ export class SidebarService {
          {titulo:'Graficas',url:'grafica1'},
          {titulo:'rxjs',url:'rxjs'},
          {titulo:'ProgressBar',url:'progress'},
-         {titulo:'Promesas',url:'promesas'},
-         
-        
+         {titulo:'Promesas',url:'promesas'},                 
        ]
-
+     },
+     {
+      titulo:'Mantenimientos',
+      icono:'mdi mdi-folder-lock-open',
+      submenu:[
+        {titulo:'Usuarios',url:'usuarios'},
+        {titulo:'Hospitales',url:'hospitales'},
+        {titulo:'Medicos',url:'medicos'}
+                       
+      ]
      }
    ];
 
